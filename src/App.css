@@ -1,38 +1,64 @@
 .App {
   text-align: center;
+  background-color: #4869c5;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button{
+  flex: 1;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  
+  
+}
+
+.cnt{
+  width: 100%;
+  min-height: 90vh;
+  height: fit-content;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
+.ctnelem{
+  background-color:#e5eff5;
+  margin: 70px;
+  width: 30vw;
+  min-height: 60vh;
+  text-align: start;
+  padding: 10px;
+  border-radius: 5px;
+  height: fit-content;
+}
+.task{
+  height: 100%;
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.title{
+  border-bottom: 1px solid black ;
+  font-size: 20px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.tag{
+  width: 35px;
+  border-radius: 10px;
+  height: 10px;
+}
+.date{
+  background-color: rgb(214, 214, 226);;
+  width: fit-content;
+  padding: 3px;
+  border-radius: 5px;
+}
+.action{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+}
+.action-el{
+  margin: 0px 10px;
+  color: #086ad8;
+  cursor: pointer;
 }
